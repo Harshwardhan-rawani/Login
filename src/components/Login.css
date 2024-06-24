@@ -1,0 +1,43 @@
+.animate{
+  
+    animation: login 1s;
+    animation-timing-function: linear;
+    animation-fill-mode:both;
+    animation-direction: alternate;
+    animation-iteration-count: infinite;
+}
+@keyframes login {
+    from{
+        transform: translateX(0);
+    }
+    to{
+        transform: translateX(80%);
+    }
+}
+.animate1{
+    animation: icon 1s linear 0s infinite alternate both;
+}
+@keyframes icon {
+    to{
+        transform: scale(1.2);
+    }
+}
+.animate2{
+    animation: icon 1s linear 1s infinite alternate both;
+}
+@keyframes icon {
+    to{
+        transform: scale(1.2);
+    }
+}
+.animatec{
+    animation: lo 1s linear 1s infinite alternate both;
+}
+@keyframes lo {
+    from{
+        background-color: #762c85;
+    }
+    to{
+        background-color: #4e1c58df;
+    }
+}
